@@ -59,5 +59,13 @@ namespace ПР52_Осокин.Pages
             }
             CreateStudents(SearchStudents.FindAll(x => $"{x.Lastname} {x.Firstname}".Contains(TBFIO.Text)));
         }
+        private void ReportGeneration(object sender, RoutedEventArgs e)
+        {
+            if (CBGroups.SelectedIndex != CBGroups.Items.Count - 1)
+            {
+                int IdGroup = AllGroups.Find(x => x.Name == CBGroups.SelectedItem).Id;
+                Report.Group(IdGroup, this);
+            }
+        }
     }
 }
