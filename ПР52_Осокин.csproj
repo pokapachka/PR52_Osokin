@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Common\" />
     <Folder Include="Images\" />
     <Folder Include="Items\" />
     <Folder Include="Pages\" />
