@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\" />
     <Folder Include="Images\" />
     <Folder Include="Items\" />
     <Folder Include="Pages\" />
